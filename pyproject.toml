@@ -6,8 +6,13 @@ authors = [
     {name = "ignius299792458"}
 ]
 requires-python = ">=3.12"
+
 dependencies = [
 ]
+
+[tool.poetry]
+packages = [{include = "mdp_designs", from = "src"}]
+
 
 
 [build-system]
