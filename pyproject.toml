@@ -1,0 +1,15 @@
+[project]
+name = "mdp-designs"
+version = "0.1.0"
+description = "Contains 10 different kinds of MDP system designs"
+authors = [
+    {name = "ignius299792458"}
+]
+requires-python = ">=3.12"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
